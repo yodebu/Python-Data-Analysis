@@ -112,13 +112,14 @@ class MontyHall:
         return self.user_wins()
  
  
- def main() :
+def main():
     # Now, we'll run the game. When asked if we want to switch door selection when
     # the door is removed by the host, we'll say 'yes' and switch our choice of
     # door. We'll run that experiment one million times, always switching choice
     # when given the chance. Here's what that looks like:
  
     wins, losses = 0, 0
+    
     for i in range(1000000):
         # make an instance of the game, call it 'm'
         m = MontyHall()

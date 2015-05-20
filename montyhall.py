@@ -112,6 +112,10 @@ class MontyHall:
         return self.user_wins()
  
  
+#End of the Monty-Hall class
+
+
+
 def main():
     # Now, we'll run the game. When asked if we want to switch door selection when
     # the door is removed by the host, we'll say 'yes' and switch our choice of
